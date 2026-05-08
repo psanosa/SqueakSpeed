@@ -5,7 +5,7 @@ Source code and pipeline analysis for the wheel tracking system.
 3. Live-tracker setup 
 4. Analysis pipeline written in R (Optional)
 
-# Hardware Installation Instructions
+# Hardware Installation Instruction
 **List of Materials:**
 
 Raspberry Pi (Any model that has Wi-Fi connectivity)
