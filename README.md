@@ -46,7 +46,7 @@ Now it's time to put these values onto the source code.
 9. Open and download the .py file in this repository in **Thonny**.
 10. Open the **terminal** on the Raspberry Pi, type to install this package: pip3 install paho.mqtt (**If you get “externally-managed-environment” on newer Raspberry Pi OS versions, use pip3 install schedule --break-system-packages**)
 11. Open the **terminal** on the Raspberry Pi, type to install this package: pip3 install schedule (**If you get “externally-managed-environment” on newer Raspberry Pi OS versions, use pip3 install paho.mqtt --break-system-packages**)
-12. Now go back to Thonny and change the wheel diameter (**in meters**) variable to the specific wheel you are using. For instance, wheeldiameter = ___
+12. Now go back to Thonny and change the wheel diameter variable (**in meters**) to the specific wheel you are using. For instance, wheeldiameter = ___
 13. Under "# MQTT credentials for the device, # The ThingSpeak Channel ID, and # The Write API Key for the channel" within the code, write the respective values that was previously recorded in Steps 7 and 8. Save the code.
 14. To test for software functionality, run the code and simply wait a minute for a value of 0 to get plotted on the ThingSpeak channel. 
 15. To test for software and hardware functionality, wave the magnet across the hall sensor a couple of times, then wait a minute until a recorded value shows up on the channel that you have made.
