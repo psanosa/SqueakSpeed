@@ -45,7 +45,7 @@ Neodymium magnets
 
 Now it's time to put these values onto the source code.
 
-9. Open and download the .py file in this repository in **Thonny**.
+9. Download the .py file in this repository and open it in **Thonny** through the Raspberry Pi.
 10. Open the **terminal** on the Raspberry Pi, type to install this package: pip3 install paho.mqtt (**If you get “externally-managed-environment” on newer Raspberry Pi OS versions, use pip3 install schedule --break-system-packages**)
 11. Open the **terminal** on the Raspberry Pi, type to install this package: pip3 install schedule (**If you get “externally-managed-environment” on newer Raspberry Pi OS versions, use pip3 install paho.mqtt --break-system-packages**)
 12. Now go back to Thonny and change the wheel diameter variable (**in meters**) to the specific wheel you are using. For instance, wheeldiameter = 0.303
