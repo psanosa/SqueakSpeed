@@ -8,7 +8,7 @@ Source code and pipeline analysis for the wheel tracking system.
 # Hardware Installation Instruction
 **List of Materials:**
 
-Raspberry Pi (Any model that has Wi-Fi connectivity)
+Raspberry Pi (Any model that has Wi-Fi or Ethernet connectivity)
 
 Micro SD Card (to install Operating System)
 
