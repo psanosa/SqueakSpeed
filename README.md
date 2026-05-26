@@ -12,6 +12,8 @@ Raspberry Pi (Any model that has Wi-Fi connectivity)
 
 Micro SD Card (to install Operating System)
 
+Micro SD Card Adapter 
+
 Breadboard (If you are running multiple cages) 
 
 Breadboard power supply module (If you are running multiple cages) 
@@ -23,7 +25,7 @@ Hall Sensor (Unipolar)
 Neodymium magnets
 
 
-1. Setup your Raspberry Pi with downloading the latest version of RasPi OS using Raspberry Pi Imager on the Raspberry Pi main website. (**The model and diagram that I will be showcasing is for the Raspberry Pi Model 4B**)
+1. Setup your Raspberry Pi with downloading the latest version of RasPi OS using Raspberry Pi Imager on the Raspberry Pi main website. Go through the Raspberry Pi Imager software on your own personal laptop or desktop computer. Go through the steps it asks to set up the operating system for you. You will need a micro SD card adapter to plug into your own personal laptop or desktop to download the OS into the micro SD card. (**The model and diagram that I will be showcasing is for the Raspberry Pi Model 4B**)
 2. Setup the breadboard power supply module along with the breadboard. (**skip this step if you are running only a single cage**)
 4. Choose whether you are running multiple sensors simultaenously or just one. Regardless, it is a good thing to note that 3 pins exist for the hall sensor: a digital output (DO), VCC (voltage supply), and ground. The order in which this appears will differ on the small circuit board I have used compared to using only the hall sensor itself (no LED indicator). I have included both diagrams on this repository. **If using only a single hall sensor skip this step and move on to step 4.** When using multiple sensors simultaenously (therefore running multiple cages), make sure to setup the wiring diagram as seen here. It is important to note that the VCC pins of each sensor should not be directly supplied from the Raspberry Pi as this will cause the computer to short circuit. Also, make sure the breadboard's ground is linked with the Raspberry Pi's ground pin. 
 5. If using a single hall sensor, the hall sensor pins can directly connect to the Rasperry Pi. First, connect the DO pin to any DO pin in the Raspberry Pi (**indicated by the pins of the Raspberry Pi; GPIO.png. The eligible pins to use are the ones with just GPIO then a number coming right after it, e.g. GPIO 27**). Second, connect the ground pin of the hall sensor to any ground pin on the Raspberry Pi. When connecting the VCC pin of the hall sensor, it is advisable to not use the 5.5 V pin that the Raspberry Pi supplies as this may cause a short circuit. Instead, use the 3.3 V pin.
