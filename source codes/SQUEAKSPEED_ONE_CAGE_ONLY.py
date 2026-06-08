@@ -90,7 +90,7 @@ if useUnsecuredWebsockets:
 if useSSLWebsockets:
     import ssl
     tTransport = "websockets"
-    tTLS = {'ca_certs':"/etc/ssl/certs/ca-certificates.crt",'tls_version':ssl.PROTOCOL_TLSv1}
+    tTLS = {'ca_certs':"/etc/ssl/certs/ca-certificates.crt",'tls_version':ssl.PROTOCOL_TLSv1_2}
     tPort = 443
 
 # Create the topic string
